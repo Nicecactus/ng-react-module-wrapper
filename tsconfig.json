@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@nicecactus/ng-react-module-wrapper": [
+        "dist/nicecactus/ng-react-module-wrapper/nicecactus-ng-react-module-wrapper",
+        "dist/nicecactus/ng-react-module-wrapper"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

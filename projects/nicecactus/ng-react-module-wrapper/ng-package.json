@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../dist/nicecactus/ng-react-module-wrapper",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  }
+}
