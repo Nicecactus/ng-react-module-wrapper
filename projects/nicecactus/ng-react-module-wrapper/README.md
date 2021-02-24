@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/ngx-bootstrap"><img src="https://badge.fury.io/js/%40nicecactus%2Fng-react-module-wrapper.svg" alt="npm version" ></a>
+  <a href="https://badge.fury.io/js/%40nicecactus%2Fng-react-module-wrapper"><img src="https://badge.fury.io/js/%40nicecactus%2Fng-react-module-wrapper.svg" alt="npm version" ></a>
 </p>
 
 ## Table of contents
