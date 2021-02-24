@@ -1,0 +1,11 @@
+{
+    "markdown.extension.toc.slugifyMode": "github",
+    "markdown.extension.toc.omittedFromToc": {
+        "README.md": [
+            "## Table of contents"
+        ],
+        "projects/nicecactus/ng-react-module-wrapper/README.md": [
+            "## Table of contents"
+        ]
+    }
+}

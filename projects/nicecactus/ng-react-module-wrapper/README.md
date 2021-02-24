@@ -1,24 +1,26 @@
-# NgReactModuleWrapper
+<p align="center">
+  <a href="https://technology.atnicecactus.gg//">
+    <img src="https://app.nicecactus.gg/assets/img/logo/nicecactus-logo.svg" alt="Nicecactus logo" width="1000" height="180">
+  </a>
+</p>
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+<h3 align="center">NG React Module Wrapper</h3>
 
-## Code scaffolding
+<p align="center">
+  Easily integrate standalone react modules into your Angular application
+</p>
 
-Run `ng generate component component-name --project ng-react-module-wrapper` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-react-module-wrapper`.
-> Note: Don't forget to add `--project ng-react-module-wrapper` or else it will be added to the default project in your `angular.json` file. 
+<p align="center">
+  <a href="https://badge.fury.io/js/ngx-bootstrap"><img src="https://badge.fury.io/js/%40nicecactus%2Fng-react-module-wrapper.svg" alt="npm version" ></a>
+</p>
 
-## Build
+## Table of contents
 
-Run `ng build ng-react-module-wrapper` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Quick start](#quick-start)
 
-## Publishing
+## Quick start
 
-After building your library with `ng build ng-react-module-wrapper`, go to the dist folder `cd dist/ng-react-module-wrapper` and run `npm publish`.
+Several quick start options are available:
 
-## Running unit tests
-
-Run `ng test ng-react-module-wrapper` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Install with [npm](https://www.npmjs.com/): `npm install @nicecactus/ng-react-module-wrapper`
+- Install with [yarn](https://yarnpkg.com/): `yarn add @nicecactus/ng-react-module-wrapper`
