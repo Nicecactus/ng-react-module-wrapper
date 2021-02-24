@@ -2,10 +2,7 @@ set -e
 
 yarn lint
 yarn test:headless
-
-cd projects/nicecactus/ng-react-module-wrapper
 yarn version
-cd -
 
 yarn build:prod
 
