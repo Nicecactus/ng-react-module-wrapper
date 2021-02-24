@@ -1,11 +1,29 @@
 {
   "name": "@nicecactus/ng-react-module-wrapper",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "peerDependencies": {
     "@angular/common": "^11.2.1",
     "@angular/core": "^11.2.1"
   },
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicecactus/ng-react-module-wrapper.git"
+  },
+  "keywords": [
+    "nicecactus",
+    "react",
+    "angular",
+    "ng",
+    "module",
+    "wrapper"
+  ],
+  "author": "Robin Goupil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicecactus/ng-react-module-wrapper/issues"
+  },
+  "homepage": "https://github.com/Nicecactus/ng-react-module-wrapper#readme"
 }
