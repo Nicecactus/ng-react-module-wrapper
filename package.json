@@ -1,6 +1,6 @@
 {
   "name": "ng-react-module-wrapper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "build": "ng build @nicecactus/ng-react-module-wrapper",
@@ -8,8 +8,10 @@
     "build:prod": "yarn build --prod",
     "build:prod:watch": "yarn build:prod --watch",
     "test": "ng test @nicecactus/ng-react-module-wrapper",
-    "test:watch": "yarn test --watch",
-    "lint": "ng lint @nicecactus/ng-react-module-wrapper"
+    "test:watch": "yarn test",
+    "test:headless": "yarn test --watch=false --browsers=ChromeHeadless",
+    "lint": "ng lint @nicecactus/ng-react-module-wrapper",
+    "publish": "yarn test:headless && yarn lint && cd dist/nicecactus/ng-react-module-wrapper && yarn publish"
   },
   "private": true,
   "dependencies": {
