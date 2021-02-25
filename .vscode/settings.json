@@ -2,7 +2,14 @@
     "markdown.extension.toc.slugifyMode": "github",
     "markdown.extension.toc.omittedFromToc": {
         "README.md": [
-            "## Table of contents"
+            "## Table of contents",
+            "#### **`AppModule`**",
+            "#### **`my-module-loader.component.ts`**",
+            "#### **`my-module-loader.component.html`**",
+            "#### **`AppRoutingModule`**",
+            "### [NgReactModuleWrapper](https://github.com/Nicecactus/ng-react-module-wrapper/blob/master/src/lib/ng-react-module-wrapper.component.ts)",
+            "### Inputs",
+            "### Outputs"
         ]
     }
 }

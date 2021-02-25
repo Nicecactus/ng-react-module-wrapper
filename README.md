@@ -17,6 +17,7 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
+- [API Reference](#api-reference)
 
 ## Quick start
 
