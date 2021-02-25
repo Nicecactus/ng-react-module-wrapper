@@ -39,6 +39,8 @@ export class NgReactModuleWrapperComponent implements OnInit, AfterViewInit {
 
   @Output() loaded = new EventEmitter<HTMLElement>();
 
+  @Output() rendered = new EventEmitter<any>();
+
   private initialized = false;
   private executed = false;
 
@@ -63,6 +65,8 @@ export class NgReactModuleWrapperComponent implements OnInit, AfterViewInit {
     ]);
     this.initialized = true;
 
+    this.loaded.emit(this.anchorEl.nativeElement);
+
     this.execute();
   }
 
@@ -81,13 +85,14 @@ export class NgReactModuleWrapperComponent implements OnInit, AfterViewInit {
       return;
     }
 
-    obj.render({
+    const ret = obj.render({
       element: this.anchorEl.nativeElement,
       basename: this.basename || '/',
       navigate: (commands: any[], options: NavigationExtras) => this.router.navigate(commands, { relativeTo: this.route, ...options }),
       ...this.arguments,
     });
-    this.loaded.emit(this.anchorEl.nativeElement);
+
+    this.rendered.emit(ret);
   }
 
   private async loadManifest(src: string): Promise<AssetManifest> {
