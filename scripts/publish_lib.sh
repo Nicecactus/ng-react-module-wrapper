@@ -2,7 +2,11 @@ set -e
 
 yarn lint
 yarn test:headless
-yarn version
+if [[ -v ${1+x} ]]; then
+    yarn version
+else
+    yarn version --new-version $1
+fi
 
 yarn build:prod
 
