@@ -1,6 +1,6 @@
 {
   "name": "@nicecactus/ng-react-module-wrapper",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "scripts": {
     "ng": "ng",
     "build": "ng build @nicecactus/ng-react-module-wrapper",
