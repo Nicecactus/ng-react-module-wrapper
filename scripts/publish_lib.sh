@@ -2,7 +2,7 @@ set -e
 
 yarn lint
 yarn test:headless
-if [[ -v ${1+x} ]]; then
+if [[ -v "${1}" ]]; then
     yarn version
 else
     yarn version --new-version $1
