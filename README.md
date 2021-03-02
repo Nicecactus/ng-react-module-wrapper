@@ -16,15 +16,8 @@
 
 ## Table of contents
 
-- [Creating a Standalone React Modules](#creating-a-standalone-react-modules)
 - [Quick start](#quick-start)
 - [API Reference](#api-reference)
-
-## Creating a Standalone React Modules
-
-A Standalone React Module is a pre-built react application that can be lazily-loaded from any framework.  
-This library allow using these modules from any Angular project.
-You can read more about this
 
 ## Quick start
 
