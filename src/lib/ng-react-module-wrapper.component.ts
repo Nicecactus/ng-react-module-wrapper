@@ -56,12 +56,12 @@ export class NgReactModuleWrapperComponent implements OnInit, AfterViewInit {
       return;
     }
 
-    const origin = new URL(this.assetManifestUrl).origin;
+    const origin = new URL(`${this.assetManifestUrl}/..`).href;
     const scripts = assetManifest.entrypoints.filter(f => f.endsWith('.js'));
     const styles = assetManifest.entrypoints.filter(f => f.endsWith('.css'));
     await Promise.all([
-      ...scripts.map(s => this.loadScript(`${origin}/${s}`)),
-      ...styles.map(s => this.loadStyle(`${origin}/${s}`)),
+      ...scripts.map(s => this.loadScript(`${origin}${s}`)),
+      ...styles.map(s => this.loadStyle(`${origin}${s}`)),
     ]);
     this.initialized = true;
 
